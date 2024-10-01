@@ -1,0 +1,90 @@
+body {
+  background-color: #f8f9fa; /* Cor de fundo suave */
+  font-family: 'Arial', sans-serif; /* Fonte padrão */
+}
+
+.my-profile {
+  padding: 60px 0; /* Espaçamento superior e inferior */
+}
+
+.profile-image {
+    width: 100%; /* Largura total do contêiner */
+    max-width: 300px; /* Largura máxima para a imagem */
+    height: auto; /* Altura automática para manter a proporção */
+    border: 5px solid #007BFF; /* Borda azul ao redor da imagem */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra para a imagem */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+
+h2, h4 {
+  color: #343a40; /* Cor do texto do cabeçalho */
+}
+
+p {
+  color: #495057; /* Cor do texto do parágrafo */
+  line-height: 1.6; /* Aumento do espaçamento entre linhas */
+}
+
+.u-social-icons {
+  margin-top: 20px; /* Espaçamento superior para ícones sociais */
+}
+
+.u-social-url {
+  margin-right: 10px; /* Espaçamento entre os ícones */
+  font-size: 24px; /* Tamanho dos ícones */
+  color: #495057; /* Cor dos ícones */
+}
+
+.u-social-url:hover {
+  color: #007BFF; /* Cor ao passar o mouse */
+}
+
+.u-title {
+  font-size: 2.5rem; /* Tamanho da fonte para o título */ 
+}
+
+.u-large-text {
+  font-size: 1.5rem; /* Tamanho da fonte para o texto grande */
+  margin-bottom: 40px;
+}
+
+.footer {
+  position: fixed; /* Fixa o footer na parte inferior */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa; /* Cor de fundo */
+  padding: 10px 0; /* Espaçamento vertical */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  z-index: 10; /* Garantir que o footer fique acima do conteúdo */
+}
+.my-profile  {
+  position: relative; /* Define o contexto para z-index */
+  z-index: 1;
+}
+
+.container {
+  overflow: auto; /* Adiciona uma barra de rolagem se o conteúdo for muito grande */
+}
+
+.fundo{
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.welcome-section {
+  height: 100vh; /* Ocupa toda a altura da tela */
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  text-align: center;
+  background-color: #f8f9fa; /* Cor de fundo clara */
+}
+
+.profile-container {
+  background-color: #f8f9fa; /* Cor de fundo opcional */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
